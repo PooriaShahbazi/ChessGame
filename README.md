@@ -2,16 +2,21 @@
 Chess Game in Java
 
 This project is a 2D chess game built in Java using the Swing library. It features:
-	•	Graphical User Interface:
+	
+•	Graphical User Interface:
 A fully drawn chess board with row numbers and column letters. The board does not allow resizing, so the layout remains consistent.
-	•	Standard Chess Mechanics:
+	
+•	Standard Chess Mechanics:
 All standard pieces are implemented with valid move rules, including special moves like castling (rochade). When castling, both the king and the corresponding rook are moved automatically.
-	•	Visual Feedback:
+	
+•	Visual Feedback:
 	•	Possible Moves: When you select a piece, its valid moves are highlighted in semi-transparent green.
 	•	Check Indication: Instead of a dialog, the square containing the king in check is highlighted with a semi-transparent red overlay.
-	•	Turn-Based Gameplay:
+	
+•	Turn-Based Gameplay:
 White is controlled by the user and Black by a basic computer AI. The game enforces alternating turns and ensures pieces cannot be moved to occupied squares by friendly pieces.
-	•	Basic AI for Black:
+	
+•	Basic AI for Black:
 The computer uses a simple minimax algorithm with alpha–beta pruning to choose its moves based on material evaluation. Although the AI is basic, it provides a functional opponent for casual play.
 
 How to Run
