@@ -2,7 +2,6 @@
 Chess Game in Java
 
 This project is a 2D chess game built in Java using the Swing library. It features:
-
 	•	Graphical User Interface:
 A fully drawn chess board with row numbers and column letters. The board does not allow resizing, so the layout remains consistent.
 	•	Standard Chess Mechanics:
